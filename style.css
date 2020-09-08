@@ -1,0 +1,177 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    line-height: 175%;
+    color: #333;
+    background: #efeee7;
+  }
+
+header {
+    background: #333;
+    color: #008080;
+}  
+  
+h1 {
+    padding: 26px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #008080;
+    text-align: left;
+  }
+  
+h2 {
+font-size: 22px;
+color: #008080;
+text-align: left;
+}
+  
+h3 {
+  font-size: 22px;
+  color: #008080;
+  text-align: left;
+  }
+  
+/* Selecting elements by class */
+.container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
+
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+#myTopnav {
+  color: #008080; 
+  background: white;
+  float: center;
+}
+
+.dropbtn {
+  color: #008080; 
+  background: white;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  background: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#Nav2 {
+  color: #008080; 
+  background: white;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+}
+
+#Nav3 {
+  color: #008080; 
+  background: white;
+  padding: 12px;
+  font-size: 14px;
+  border: none;
+}
+
+.dropdown-content a {
+  color: #008080;
+  padding: 5px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.column-main {
+  height: 600;
+  -ms-flex: 6%; /* IE 10 */
+  flex: 75%;
+  padding: 0 30px;
+  background: white;
+  font-size: 16px;
+  color: #008080;
+  text-align: left;
+}
+
+#main-pic {
+  max-width: 70%;
+  max-height: 70%;
+  padding: 20px;
+  float: left;
+}
+
+#vis-pic {
+margin-top: 8px;
+vertical-align: middle;
+max-width: 80%;
+max-height: 80%;
+float: center;
+}
+
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  max-width: 75%;
+  max-height: 75%;
+  float: center;
+}
+
+.column1 {
+  height: 600;
+  -ms-flex: 37%; /* IE 10 */
+  flex: 37%;
+  padding: 0 0px;
+  background: white;
+}
+
+.column1 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+  float: center;
+}
+
+.column2 {
+  height: 600;
+  -ms-flex: 10%; /* IE 10 */
+  flex: 10%;
+  padding: 0 10px;
+}
+
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+  float: center;
+}
+
+.box1 {
+  height: 600px;
+  padding: 8px;
+  color: RGB(102, 51, 153);
+  background: #FFFFFF;
+  float: left;
+}
+

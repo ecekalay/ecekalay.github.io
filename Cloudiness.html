@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Latitude Analysis Dashboard with Altitude</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <!-- Creates the Overall Grid -->
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-md-9">
+                <h1>Latitude</h1>
+            </div>
+
+            <div class="col-md-3">
+
+                <div class="topnav" id="myTopnav">
+                    <div class="dropdown">
+                        <button class="dropbtn dropdown-toggle" type="button" data-toggle="dropdown">Plots
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-content">
+                            <li><a href="http://127.0.0.1:5500/Max-Temp.html">Max Temperature</a></li>
+                            <li><a href="http://127.0.0.1:5500/Humidity.html">Humidity</a></li>
+                            <li><a href="http://127.0.0.1:5500/Cloudiness.html">Cloudiness</a></li>
+                            <li><a href="http://127.0.0.1:5500/Wind-Speed.html">Wind Speed</a></li>
+                        </ul>
+                    </div>
+                    <a id="Nav2" href="http://127.0.0.1:5500/Comparisons.html">Comparison</a>
+                    <a id="Nav3" href="http://127.0.0.1:5500/Cities-Table.html">Data</a>
+                </div>
+
+            </div>
+        </div>
+  
+        <!-- Row 2-1 -->
+        <div class="row">
+            <div class="col-md-9">
+                <h2>Cloudiness</h2><br>
+            </div>
+
+            <div class="col-md-3">                
+                <h3>Visualizations</h3>
+            </div>   
+
+            <div class="column column-main">
+            <img id="vis-pic" src="/assets/images/Fig3.png">
+                <div>
+                <p>The cloudiness of a city doesn't seem to be corelated with the latitude of the city. Interestingly, 
+                    there are cities located on the same latitude and having extreme cloudiness levels on the 
+                    opposide ends (0 and 100). This shows that there are factors more important than the 
+                    latitude affecting cloudiness.</p>
+                </div>                                        
+            </div>
+
+            <!-- Row 2-2 -->  
+
+            <div class="column column2">
+                <p><a href="http://127.0.0.1:5500/Max-Temp.html">
+                    <img src="/assets/images/Fig1.png">
+                    </a></p>
+                <p><a href="http://127.0.0.1:5500/Cloudiness.html">
+                        <img src="/assets/images/Fig3.png">
+                    </a></p>
+            </div>
+
+            <div class="column column2">
+                <p><a href="http://127.0.0.1:5500/Humidity.html">
+                    <img src="/assets/images/Fig2.png">
+                    </a></p>                    
+                    <p><a href="http://127.0.0.1:5500/Wind-Speed.html">
+                        <img src="/assets/images/Fig4.png">
+                    </a></p>  
+            </div>  
+                                               
+          
+        </div>
+
+               
+    </div>
+
+
+</body>
+
+</html>
